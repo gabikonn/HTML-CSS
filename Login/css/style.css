@@ -1,0 +1,60 @@
+body{
+    background-color: #19B2AC;
+    font-family: 'Lato-Regular';
+    margin: 0px;
+
+}
+
+form{
+    font-family: 'Lato-Regular';
+    text-align: center;
+}
+
+@font-face{
+    font-family: "Lato-Regular";
+
+    /*Caso a fonte esteja na mesma pasta*/
+    src: url('Lato-Regular.ttf') format('truetype');
+}
+
+input{
+    border: 2px solid lightgrey;
+    border-radius: 2px;
+    padding: 10px 6px;
+    margin: 5px -50px;
+    width: 80%;
+    box-sizing: inherit;
+  }
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+ }
+ 
+ .box {
+    width: 300px;
+    height: 300px;
+    background: whitesmoke;
+ }
+
+button{
+    border: 2px solid #6F53E9;
+    border-radius: 2px;
+    padding: 10px 6px;
+    margin: 5px -50px;
+    width: 80%;
+    background-color: #6F53E9;
+    box-sizing: inherit;
+    color: white;
+    font-family: 'Lato-Regular';
+
+}
+
+.fa-unlock-alt{
+    color: #19B2AC;
+    padding: 10px;
+}
