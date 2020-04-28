@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato-Regular";
+}
+
+#menu ul{  
+  background-color: #19B2AC;
+  width: 100%;
+  list-style:none;
+  float: left;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  line-height:50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fa-bars{
+  color: white;
+  line-height:50px;
+  margin: 0 20px;
+}
+
+#exterior{
+  width: 100%;
+  float: left;
+  padding: 10px;
+}
+
+li{
+  display: inline;
+
+}
+
+#interior-cabecalho{
+  margin: 0 auto;
+  width: 88%;
+  list-style: none;
+  padding: 30px 10px 10px 10px;
+  vertical-align: center;
+}
+
+#titulo{
+  color: #19B2AC;
+  font-size: 20px;
+  float: left;
+}
+
+#novo-email{
+  color: #6F53E9;
+  font-size: 16px;
+  float: right;
+}
+
+.fa-plus{
+  color: #6F53E9;
+  padding: 10px;
+}
+
+.fa-trash{
+  color: red;
+  padding: 10px;
+}
+
+#corpo-email{
+  margin: 0 auto;
+  width: 88%;
+  list-style: none;
+  padding: 30px 10px 10px 10px;
+  vertical-align: center;
+}
+
+#tblCaixaEntrada{
+  border-collapse: collapse;
+  width:100%;
+  background-color: #FFFAFA;
+  text-align: left;
+}
+
+th{
+  background-color: #19B2AC;
+  color: white;
+  height: 40px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: none;
+}
+
+.remetente{
+  color: grey;
+  width: 30%;
+}
+
+.checkbox-email{
+  width: 30px;
+}
+
+.assunto{
+  font-weight: bold;
+}
+
+.titulo-email{
+  border-right: 1px solid white;
+}
+
+@font-face{
+  font-family: "Lato-Regular";
+
+  /*Caso a fonte esteja na mesma pasta*/
+  src: url('Lato-Regular.ttf') format('truetype');
+}
